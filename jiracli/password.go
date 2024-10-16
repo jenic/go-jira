@@ -54,6 +54,12 @@ func (o *GlobalOptions) GetPass() string {
 	if o.cachedPassword != "" {
 		return o.cachedPassword
 	}
+
+	if o.cachedPassword = os.Getenv("JIRA_API_TOKEN"); o.cachedPassword != "" && o.AuthMethodIsToken() {
+		log.Debug("Overriding Password from ENV")
+		return o.cachedPassword
+	}
+
 	log.Debugf("Getting Password")
 	if o.PasswordSource.Value != "" {
 		log.Debugf("password-source: %s", o.PasswordSource)
@@ -130,10 +136,6 @@ func (o *GlobalOptions) GetPass() string {
 
 	if o.cachedPassword != "" {
 		log.Info("Password cached.")
-		return o.cachedPassword
-	}
-
-	if o.cachedPassword = os.Getenv("JIRA_API_TOKEN"); o.cachedPassword != "" && o.AuthMethodIsToken() {
 		return o.cachedPassword
 	}
 
