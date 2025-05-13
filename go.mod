@@ -18,7 +18,7 @@ require (
 	github.com/pkg/browser v0.0.0-20170505125900-c90ca0c84f15
 	github.com/pkg/errors v0.8.0
 	github.com/stretchr/testify v1.2.2
-	github.com/tidwall/gjson v0.0.0-20180711011033-ba784d767ac7
+	github.com/tidwall/gjson v1.18.0
 	github.com/tmc/keyring v0.0.0-20171121202319-839169085ae1
 	golang.org/x/crypto v0.38.0
 	golang.org/x/net v0.40.0
@@ -29,7 +29,7 @@ require (
 )
 
 require (
-	github.com/Masterminds/goutils v1.1.0 // indirect
+	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Netflix/go-expect v0.0.0-20180928190340-9d1f4485533b // indirect
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
@@ -49,9 +49,10 @@ require (
 	github.com/mattn/go-runewidth v0.0.6 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/theckman/go-flock v0.4.0 // indirect
-	github.com/tidwall/match v1.0.0 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/term v0.32.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
-	gopkg.in/yaml.v2 v2.2.2 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

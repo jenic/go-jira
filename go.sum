@@ -1,5 +1,5 @@
-github.com/Masterminds/goutils v1.1.0 h1:zukEsf/1JZwCMgHiK3GZftabmxiCw4apj3a28RPBiVg=
-github.com/Masterminds/goutils v1.1.0/go.mod h1:8cTjp+g8YejhMuvIA5y2vz3BpJxksy863GQaJW2MFNU=
+github.com/Masterminds/goutils v1.1.1 h1:5nUrii3FMTL5diU80unEVvNevw1nH4+ZV4DSLVJLSYI=
+github.com/Masterminds/goutils v1.1.1/go.mod h1:8cTjp+g8YejhMuvIA5y2vz3BpJxksy863GQaJW2MFNU=
 github.com/Masterminds/semver v1.5.0 h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww=
 github.com/Masterminds/semver v1.5.0/go.mod h1:MB6lktGJrhw8PrUyiEoblNEGEQ+RzHPF078ddwwvV3Y=
 github.com/Masterminds/sprig v2.21.0+incompatible h1:nPETddHHEG1ucL7H5t5T95IuWaDe5qB9ImEaztiXgRc=
@@ -67,10 +67,12 @@ github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/theckman/go-flock v0.4.0 h1:bcqNkS4RTQBGWybG7IBimUMxnLz53Qes1+D4QaOhzJc=
 github.com/theckman/go-flock v0.4.0/go.mod h1:kjuth3y9VJ2aNlkNEO99G/8lp9fMIKaGyBmh84IBheM=
-github.com/tidwall/gjson v0.0.0-20180711011033-ba784d767ac7 h1:PW7TzL8BOpYMcUYSv4qWDoH1Y5iRzVABteynvfF7pwE=
-github.com/tidwall/gjson v0.0.0-20180711011033-ba784d767ac7/go.mod h1:c/nTNbUr0E0OrXEhq1pwa8iEgc2DOt4ZZqAt1HtCkPA=
-github.com/tidwall/match v1.0.0 h1:Ym1EcFkp+UQ4ptxfWlW+iMdq5cPH5nEuGzdf/Pb7VmI=
-github.com/tidwall/match v1.0.0/go.mod h1:LujAq0jyVjBy028G1WhWfIzbpQfMO8bBZ6Tyb0+pL9E=
+github.com/tidwall/gjson v1.18.0 h1:FIDeeyB800efLX89e5a8Y0BNH+LOngJyGrIWxG2FKQY=
+github.com/tidwall/gjson v1.18.0/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
+github.com/tidwall/match v1.1.1 h1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=
+github.com/tidwall/match v1.1.1/go.mod h1:eRSPERbgtNPcGhD8UCthc6PmLEQXEWd3PRB5JTxsfmM=
+github.com/tidwall/pretty v1.2.0 h1:RWIZEg2iJ8/g6fDDYzMpobmaoGh5OLl4AXtGUGPcqCs=
+github.com/tidwall/pretty v1.2.0/go.mod h1:ITEVvHYasfjBbM0u2Pg8T2nJnzm8xPwvNhhsoaGGjNU=
 github.com/tmc/keyring v0.0.0-20171121202319-839169085ae1 h1:+gXfyhy0t28Guz+vFztBg45yIquB2bNtiFvbItzJtUc=
 github.com/tmc/keyring v0.0.0-20171121202319-839169085ae1/go.mod h1:gsa3jftQ3xia55nzIN4lXLYzDcWdxjojdKoz+N0St2Y=
 golang.org/x/crypto v0.38.0 h1:jt+WWG8IZlBnVbomuhg2Mdq0+BBQaHbtqHEFEigjUV8=
@@ -92,5 +94,5 @@ gopkg.in/coryb/yaml.v2 v2.0.0-20180616071044-0e40e46f7153 h1:3KfEubBNUdXqlEXuMz1
 gopkg.in/coryb/yaml.v2 v2.0.0-20180616071044-0e40e46f7153/go.mod h1:Vth2iKfSejHZ3p6akgWO0iSjuuiu6mNCEgzcYUCnumw=
 gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473 h1:6D+BvnJ/j6e222UW8s2qTSe3wGBtvo0MbVQG/c5k8RE=
 gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473/go.mod h1:N1eN2tsCx0Ydtgjl4cqmbRCsY4/+z4cYDeqwZTk6zog=
-gopkg.in/yaml.v2 v2.2.2 h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=
-gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
+gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
+gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
